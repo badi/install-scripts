@@ -57,7 +57,7 @@ prepend-path INCLUDE_PATH       \$root/lib/glib-2.0/include
 prepend-path C_INCLUDE_PATH     \$root/lib/glib-2.0/include
 
 prepend-path LIBRARY_PATH       \$root/lib
-prepend-path DYLD_LIBRARY_PATH  \$root/lib
+prepend-path DYLD_FALLBACK_LIBRARY_PATH  \$root/lib
 prepend-path PKG_CONFIG_PATH    \$root/lib/pkgconfig
 
 setenv SW_ROOT_${NAME} \$root

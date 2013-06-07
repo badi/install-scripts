@@ -31,7 +31,7 @@ prepend-path INCLUDE_PATH       \$inc
 prepend-path C_INCLUDE_PATH     \$inc
 prepend-path LIBRARY_PATH       \$root/lib
 prepend-path LD_LIBRARY_PATH    \$root/lib
-prepend-path DYLD_LIBRARY_PATH  \$root/lib
+prepend-path DYLD_FALLBACK_LIBRARY_PATH  \$root/lib
 prepend-path PKG_CONFIG_PATH    \$root/lib/pkgconfig
 prepend-path INFOPATH           \$root/share/info
 prepend-path MANPATH            \$root/share/man

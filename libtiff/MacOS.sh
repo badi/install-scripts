@@ -30,7 +30,7 @@ prepend-path CPATH              \$root/include
 prepend-path INCLUDE_PATH       \$root/include
 prepend-path C_INCLUDE_PATH     \$root/include
 prepend-path LIBRARY_PATH       \$root/lib
-prepend-path DYLD_LIBRARY_PATH  \$root/lib
+prepend-path DYLD_FALLBACK_LIBRARY_PATH  \$root/lib
 prepend-path PKG_CONFIG_PATH    \$root/lib/pkgconfig
 prepend-path MANPATH            \$root/share/man
 

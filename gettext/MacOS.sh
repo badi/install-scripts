@@ -29,7 +29,7 @@ prepend-path CPATH              \$root/include
 prepend-path INCLUDE_PATH       \$root/include
 prepend-path C_INCLUDE_PATH     \$root/include
 prepend-path LIBRARY_PATH       \$root/lib
-prepend-path DYLD_LIBRARY_PATH  \$root/lib
+prepend-path DYLD_FALLBACK_LIBRARY_PATH  \$root/lib
 prepend-path INFOPATH           \$root/share/info
 prepend-path MANPATH            \$root/share/man
 
