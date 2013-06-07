@@ -33,4 +33,5 @@ prepend-path C_INCLUDE_PATH     \$root/include
 prepend-path LIBRARY_PATH       \$root/lib
 prepend-path LD_LIBRARY_PATH    \$root/lib
 prepend-path PKG_CONFIG_PATH    \$root/lib/pkgconfig
+prepend-path MANPATH            \$root/share/man
 EOF
