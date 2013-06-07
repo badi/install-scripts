@@ -4,7 +4,7 @@ globals=$( cd $(dirname $0); pwd)/../globals.sh
 source $globals
 
 NAME=pkg-config
-VERSION=0.27.1
+VERSION=0.28
 URL=http://pkgconfig.freedesktop.org/releases/$NAME-$VERSION.tar.gz
 
 curl $URL | tar zxf -
